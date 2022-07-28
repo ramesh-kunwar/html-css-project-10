@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Manrope:wght@200;800&display=swap');
+
+body {
+    background-image: url('./images/background-image.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-weight: bolder;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    border-bottom: 2px solid white;
+}
+
+nav ul li {
+    margin: 2rem;
+}
+
+nav ul li span {
+    display: flex;
+}
+
+nav ul li i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* 
+*************************
+        middle
+************************
+*/
+.middle {
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+
+.middle button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3rem;
+    background-color: transparent;
+    margin: 3rem auto;
+}
+
+
+.box-1 {
+    width: 200px;
+    background-color: rgba(177, 177, 177, .2);
+    padding: 2rem 2rem;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.box-1 .bg {
+    padding: 1rem 3rem;
+    margin: 1rem auto;
+    display: inline-block;
+    border-radius: 4rem;
+    background-color: white;
+
+}
+
+.box-1 p {
+    font-weight: lighter;
+}
+
+.box-1 i {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.box-2 {
+    position: absolute;
+    width: 200px;
+    background-color: rgba(177, 177, 177, .2);
+    padding: 2rem 2rem;
+    left: 80%;
+    top: 30%;
+}
+
+.box-2 .bg {
+    padding: 1rem 3rem;
+    margin: 1rem auto;
+    display: inline-block;
+    border-radius: 4rem;
+    background-color: white;
+
+}
+
+.box-2 p {
+    font-weight: lighter;
+}
+
+.box-2 i {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.box-1 .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    right: -15px;
+    border-radius: 100%;
+    /* top: 60px; */
+}
+
+.box-1 .line {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    right: -80px;
+    top: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box-2 .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    bottom: -20px;
+    left: -8px;
+    border-radius: 100%;
+}
+
+.box-2 .line {
+    position: absolute;
+    height: 90px;
+    width: 2px;
+    background-color: #FFFFFF;
+    bottom: -90px;
+    right: 90px;
+
+}
+
+@media (min-width:1500px) {
+    .middle {
+        font-size: 3rem;
+    }
+}
