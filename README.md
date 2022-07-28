@@ -1,4 +1,4 @@
-# Project 10
+# Project 10 [Live Demo](https://ramesh-html-css-project-10.netlify.app/)
 
 ## Skills Gained
 - Learned about CSS positoning.
@@ -10,4 +10,4 @@
 
 
 # Screenshot
-![screenshot](./screenshot-10.png)
+![Project 10](./screenshot-10.png)
