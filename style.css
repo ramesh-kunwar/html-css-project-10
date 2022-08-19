@@ -33,9 +33,14 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
+
     border-bottom: 2px solid white;
 }
-
+nav ul .links{
+    display: flex ;
+    align-items: center;
+}
 nav ul li {
     margin: 2rem;
 }
@@ -164,6 +169,37 @@ nav ul li i {
     bottom: -90px;
     right: 90px;
 
+}
+
+@media (max-width:900px) {
+    nav ul .links{
+        display: none;
+    }
+    .middle {
+    margin-top: 3rem;
+
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .middle button {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: white;
+        border: 2px solid white;
+        border-radius: 3rem;
+        background-color: transparent;
+        margin: 3rem auto;
+    }
+    
+    .box-1 {
+        display: none;
+   
+    }
+    .box-2{
+        display: none;
+    }
+    
 }
 
 @media (min-width:1500px) {
